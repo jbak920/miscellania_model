@@ -11,3 +11,7 @@ need to research the revenue generated for your chosen worker distribution, then
 
 Then simply run `python miscellania_model.py` and a plot will be generated, showing the optimal starting cash for your 
 assumed_base_revenue.
+
+# Example output
+
+![Example output for default value of assumed_base_revenue](/images/example_output.png)

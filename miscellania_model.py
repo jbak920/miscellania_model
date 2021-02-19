@@ -104,7 +104,7 @@ if __name__ == "__main__":
   plt.plot(starting_cash_values, profits, label='Base revenue = {}'.format(assumed_base_revenue))
   plt.axvline(x=best_starting_cash, color='red')
   plt.axhline(y=0, color='black')
-  label = "{:,} staring cash will\ngenerate {:,} in profits\nafter {} days".format(best_starting_cash, max(profits), day)
+  label = "{:,} starting cash will\ngenerate {:,} in profits\nafter {} days".format(best_starting_cash, max(profits), day)
   plt.annotate(label, # this is the text
                  (best_starting_cash,min(profits)), # this is the point to label
                  textcoords="offset points", # how to position the text
